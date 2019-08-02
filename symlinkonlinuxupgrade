@@ -1,0 +1,8 @@
+Can not upgrade 
+Your python install is corrupted. Please fix the '/usr/bin/python' symlink.
+
+
+
+
+sudo ln -sf /usr/bin/python2.7 /usr/bin/python
+sudo apt-get install --reinstall python
